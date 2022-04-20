@@ -1,0 +1,19 @@
+.Results {
+  border-top: 1px solid rgba(#000, 0.25);
+  padding: 2rem;
+
+  h1 {
+    font-size: 0.75rem;
+    margin: 0;
+    text-transform: uppercase;
+  }
+
+  p {
+    font-size: 1.25rem;
+    margin: 0;
+  }
+}
+
+.Results__item {
+  margin-bottom: 1rem;
+}

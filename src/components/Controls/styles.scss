@@ -1,0 +1,29 @@
+.Controls {
+  display: flex;
+  padding: 1rem;
+
+  button {
+    background-color: #eee;
+    border: none;
+    cursor: pointer;
+    height: 2.5rem;
+    width: 3rem;
+  }
+
+  input,
+  select {
+    width: inherit;
+  }
+
+  > div {
+    width: 50%;
+
+    &:first-of-type {
+      margin-right: 1rem;
+    }
+  }
+
+  label {
+    display: block;
+  }
+}
